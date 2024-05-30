@@ -1,0 +1,87 @@
+.navbar-text {
+    text-align: center;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 20vh;
+    text-align: center;
+    font-style: italic;
+}
+
+.subtitle {
+    font-size: 0.8rem;
+    color: rgba(0, 0, 0, 0.5); /* Meio transparente */
+    margin-bottom: 10px; /* Espaço entre o subtítulo e o título */
+}
+
+.cover-container {
+    position: relative;
+    width: 100%;
+    height: 300px; /* Ajuste a altura conforme necessário */
+}
+.cover-image {
+    width: 100%;
+    height: 100%;
+    background-image: url('/images/fundo\ arte.webp');
+    background-size: cover;
+    background-position: center;
+}
+.text-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    color: rgb(14, 14, 14);
+    padding: 20px;
+    text-align: center;
+    width: 30%;
+}
+
+.second {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 10vh;
+    text-align: center;
+    font-style: italic;
+}
+
+.image-row {
+    margin-top: 20px;
+}
+.image-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.image-container img {
+    width: 80%;
+    height: 400px; /* Altura fixa das imagens */
+    object-fit: cover; /* Assegura que a imagem cubra todo o espaço designado */
+    border-radius: 8px;
+}
+
+.image-description {
+    margin-top: 10px; /* Espaço entre a imagem e o texto */
+    font-weight: bold;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-content p {
+    margin: 0 10px; /* Margem entre os elementos */
+}
